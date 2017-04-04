@@ -9,7 +9,7 @@
   <body>
     <main class="container py-4">
       <h1>DESSERTS</h1>
-      <?php makeDessert(Napoleon); ?>
+      <?php makeDesserts(Tirimisu); ?>
     </main>
   </body>
 </html>
