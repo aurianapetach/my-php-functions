@@ -1,3 +1,4 @@
+
 <?php 
 
 /**
@@ -6,12 +7,12 @@
  * @param Type of coffee
  */
 
-function makeCoffee($type) {
-  if ($type == 'latte') {
-    echo '<p>A latte is a shortened version of the Italian word, caffè latte, which means milk coffee. Lattes contain a shot of espresso and steamed milk.</p>';
-  } else if ($type == 'espresso') {
-    echo '<p>Highly concentrated Italian coffee served in a single standard shot.</p>';
+function makeDessert($type) {
+  if ($type == 'Napoleon') {
+    echo '<p> A Napoleon is a wondrous combination of puff pratry, custard and whipped cream that is the perfect mix of crunchy and creamy.</p>';
+  } else if ($type == 'Tirimisu') {
+    echo '<p>Tirimisu is a delight for those who love coffee and cake.</p>';
   } else {
-    echo '<p>That&rsquo;s not a real coffee.</p>';
+    echo '<p>That&rsquo;s not a dessert worth mentioning.</p>';
   }
 }

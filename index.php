@@ -8,8 +8,8 @@
   </head>
   <body>
     <main class="container py-4">
-      <h1>Types of Coffee</h1>
-      <?php makeCoffee(latte); ?>
+      <h1>DESSERTS</h1>
+      <?php makeDessert(Napoleon); ?>
     </main>
   </body>
 </html>
